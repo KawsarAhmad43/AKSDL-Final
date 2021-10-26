@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 100vw;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+
+
+.image-header{
+    background-image: url(../images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 40vh;
+    text-align: center;;
+}
+.image-header-text{
+    margin-top: 10%;
+    color:whitesmoke;
+    font-size: 7vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.8);
+}
+.blackoverlay{
+    background: rgba(0, 0, 0, 0.5); height: 40vh;
+}
+
+.about-box{
+    text-align: start;
+    background-image: url(../images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 3vh;
+    box-shadow: 5px 3px 6px 2px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+
+
+
+
+.mssg-section{
+    background-image: url(../images/back.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+    width: 100%;
+    box-shadow: 5px 3px 6px 2px rgba(0, 0, 0, 0.2);
+}
+.img-box{
+    width: 95%;
+    height: 70vh;
+    box-shadow: 5px 3px 6px 2px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+}
+.mssg-textbox{
+    width: 100%;
+    
+    font-size: 3vh;
+    box-shadow: 5px 3px 6px 2px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    padding:5%;
+}
+
+.mission{
+    width: 100%;
+    background-image: url(../images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 5px 3px 6px 2px rgba(0, 0, 0, 0.2);
+}
+
+.mission-textbox{
+    font-size: 3vh;
+    padding: 5%;
+}
+
+.vision{
+    width: 100%;
+    
+    background-image: url(../images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 5px 3px 6px 2px rgba(0, 0, 0, 0.2);
+}
+
+.vision-textbox{
+    font-size: 3vh;
+    padding: 5%;
+}
+
+.concern{
+    width: 100%;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 5px 3px 6px 2px rgba(0, 0, 0, 0.2);
+}
+
+.citem{
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    width: 90%;
+    margin: 10px auto;
+    
+}
+
+.itemtext{
+    padding: 10px;
+    height: 100px;
+    font-size: 3vh;
+    text-align: center;
+     border-radius: 5px;
+    background-color: white;
+}
+
+.itemtext:hover{
+    background-color:#011c39;
+    color: white;
+    transition: 1s ease;
+    
+}
+
+
+
+
+

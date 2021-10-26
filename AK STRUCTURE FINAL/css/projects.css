@@ -1,0 +1,142 @@
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+main {
+    font-size: 2rem;
+    letter-spacing: 10px;
+    padding-top: 50px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background: url("../images/projects/blueprints/pexels-thirdman-5582867\ rotated.jpg")
+        no-repeat fixed center;
+    background-size: cover;
+}
+.classic-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1150px;
+}
+
+.on-page-nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.on-page-nav ul {
+    display: flex;
+    list-style: none;
+}
+.on-page-nav ul li {
+    margin: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.on-page-nav ul a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.button-1 {
+    padding: 20px 20px;
+    background-color: orange;
+    border: 0px solid black;
+    border-radius: 30px;
+}
+.completed-projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 10px;
+    /* justify-items: center; */
+}
+.completed-projects-heading {
+    width: 100%;
+    border-bottom: 2px solid black;
+    margin: 2em 0;
+    padding: 0.5em 0.2em;
+}
+.cart {
+    display: flex;
+    margin: 0 5px;
+    margin-bottom: 50px;
+}
+.cart .top-portion img {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart .bottom-portion {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 1.2rem;
+    line-height: 130%;
+}
+.cart .bottom-portion span {
+    color: black;
+    font-weight: bold;
+}
+.on-going-projects {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 10px;
+}
+
+.on-going-projects img {
+    max-width: 90%;
+    margin: 20px;
+}
+.dummy-anchor{
+    height: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        height: 450px;
+        font-size: 1.25rem;
+        letter-spacing: 10px;
+    }
+    .on-page-nav ul {
+        flex-direction: column;
+    }
+    .button-1 {
+        padding: 20px 80px;
+    }
+    .cart {
+        margin: 25px 0;
+    }
+    .completed-projects-heading {
+        margin: 1em 0;
+        padding: 0.5em 0.2em;
+        width: 95%;
+        margin-left: 2%;
+    }
+
+    .completed-projects {
+        padding: 0 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .on-going-projects {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .on-going-projects img {
+        max-width: 90%;
+        margin: 20px;
+    }
+}
